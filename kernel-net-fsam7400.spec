@@ -7,7 +7,7 @@
 %define		modname	fsam7400
 %define		_rel	1
 Summary:	Linux kernel module for Wireless switch on Fujitsu-Siemens Amilo Pro2000
-Summary(pl):	Modu³ j±dra Linuksa dla prze³±czników bezprzewodowych w Fujitsu-Siemens Amilo Pro2000
+Summary(pl.UTF-8):   ModuÅ‚ jÄ…dra Linuksa dla przeÅ‚Ä…cznikÃ³w bezprzewodowych w Fujitsu-Siemens Amilo Pro2000
 Name:		kernel%{_alt_kernel}-net-%{modname}
 Version:	0.4.1
 Release:	%{_rel}@%{_kernel_ver_str}
@@ -28,13 +28,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Linux kernel module to change wireless radio status on Fujitsu-Siemens
 Amilo Pro2000 laptop.
 
-%description -n kernel%{_alt_kernel}-net-%{modname} -l pl
-Modu³ j±dra Linuksa do zmiany stanu radia bezprzewodowego w laptopach
+%description -n kernel%{_alt_kernel}-net-%{modname} -l pl.UTF-8
+ModuÅ‚ jÄ…dra Linuksa do zmiany stanu radia bezprzewodowego w laptopach
 Fujitsu-Siemens Amilo Pro2000.
 
 %package -n kernel%{_alt_kernel}-smp-net-%{modname}
 Summary:	Linux SMP kernel module for Wireless switch on Fujitsu-Siemens Amilo Pro2000
-Summary(pl):	Modu³ j±dra Linuksa SMP dla prze³±czników bezprzewodowych w Fujitsu-Siemens Amilo Pro2000
+Summary(pl.UTF-8):   ModuÅ‚ jÄ…dra Linuksa SMP dla przeÅ‚Ä…cznikÃ³w bezprzewodowych w Fujitsu-Siemens Amilo Pro2000
 Release:	%{_rel}@%{_kernel_ver_str}
 Group:		Base/Kernel
 %{?with_dist_kernel:%requires_releq_kernel_smp}
@@ -45,8 +45,8 @@ Requires:	module-init-tools >= 3.2.2-2
 Linux SMP kernel module to change wireless radio status on
 Fujitsu-Siemens Amilo Pro2000 laptop.
 
-%description -n kernel%{_alt_kernel}-smp-net-%{modname} -l pl
-Modu³ j±dra Linuksa SMP do zmiany stanu radia bezprzewodowego w
+%description -n kernel%{_alt_kernel}-smp-net-%{modname} -l pl.UTF-8
+ModuÅ‚ jÄ…dra Linuksa SMP do zmiany stanu radia bezprzewodowego w
 laptopach Fujitsu-Siemens Amilo Pro2000.
 
 %prep
