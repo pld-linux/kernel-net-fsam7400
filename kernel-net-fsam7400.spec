@@ -7,7 +7,7 @@
 %define		modname	fsam7400
 %define		_rel	1
 Summary:	Linux kernel module for Wireless switch on Fujitsu-Siemens Amilo Pro2000
-Summary(pl.UTF-8):   Moduł jądra Linuksa dla przełączników bezprzewodowych w Fujitsu-Siemens Amilo Pro2000
+Summary(pl.UTF-8):	Moduł jądra Linuksa dla przełączników bezprzewodowych w Fujitsu-Siemens Amilo Pro2000
 Name:		kernel%{_alt_kernel}-net-%{modname}
 Version:	0.4.1
 Release:	%{_rel}@%{_kernel_ver_str}
@@ -34,7 +34,7 @@ Fujitsu-Siemens Amilo Pro2000.
 
 %package -n kernel%{_alt_kernel}-smp-net-%{modname}
 Summary:	Linux SMP kernel module for Wireless switch on Fujitsu-Siemens Amilo Pro2000
-Summary(pl.UTF-8):   Moduł jądra Linuksa SMP dla przełączników bezprzewodowych w Fujitsu-Siemens Amilo Pro2000
+Summary(pl.UTF-8):	Moduł jądra Linuksa SMP dla przełączników bezprzewodowych w Fujitsu-Siemens Amilo Pro2000
 Release:	%{_rel}@%{_kernel_ver_str}
 Group:		Base/Kernel
 %{?with_dist_kernel:%requires_releq_kernel_smp}
